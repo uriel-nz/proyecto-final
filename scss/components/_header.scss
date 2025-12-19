@@ -1,0 +1,36 @@
+header {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(220, 220, 200);
+    nav {
+        display: flex;
+        align-items: center;
+        ul {
+            display: flex;
+            gap: 60px;
+            list-style: none;
+            li a {
+                text-decoration: none;
+                color: black;
+                font-family: "Abel", sans-serif;
+                font-weight: bold;
+                a:hover{
+                    color: rgb(89, 99, 109);
+                }
+            }
+        }
+    }
+    div h1 a:hover{
+        color:rgb(89, 99, 109);
+    }
+    .logo h1 {
+        margin: 0;
+        font-size: inherit;
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-size: 30px;
+        }
+    }
+}
