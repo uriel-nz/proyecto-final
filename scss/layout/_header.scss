@@ -1,5 +1,5 @@
-@use "variables" as v; 
-@use "queries" as q;
+@use "../base/variables" as v; 
+@use "../base/queries" as q;
 header {
     padding: 20px 5%;
     display: flex;
@@ -14,6 +14,7 @@ header {
     .logo { 
         h1 { 
             a {
+                font-family: v.$fuente-principal;
                 text-decoration: none;
                 color: inherit;
                 font-size: 30px;

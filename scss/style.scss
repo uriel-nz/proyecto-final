@@ -1,5 +1,8 @@
-@use "base/reset";
+@charset "UTF-8";
 @use "base/queries";
-@use "base/variables";
+@use "base/reset";
+@use "layout/header";
+@use "layout/main";
 @use "layout/footer";
 @use "components/grilla";
+@use "main/contactos";

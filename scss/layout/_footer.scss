@@ -1,4 +1,4 @@
-@use "variables" as v;
+@use "../base/variables" as v;
 footer {
     background-color: v.$color-primario;
     text-align: center;
