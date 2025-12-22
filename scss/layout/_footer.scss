@@ -2,12 +2,14 @@
 footer {
     background-color: v.$color-primario;
     text-align: center;
-    padding: 25px 10px;
-    h2, h3, p {
-        margin: 0;
-        line-height: 1.2;
+    padding: 20px;
+    color: #333;
+    font-family: v.$fuente-principal;
+    align-items: self-end;
+    h2 h3{
+        margin-top: 15px;
+        @media (min-width: v.$tablet) {
+        }
     }
-    h2 { margin-bottom: 8px; }
-    h3 { margin-top: 12px; margin-bottom: 4px; }
-    p { margin-bottom: 3px; }
+
 }

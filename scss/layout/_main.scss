@@ -1,10 +1,19 @@
-@use "../base/variables" as v;
+/*@use "../base/variables" as v;
+@use "../base/queries" as q;
 main {
     width: 100%;
-    max-width: 900px; 
-    margin: 30px auto;
-    padding: 0 20px;
+    margin: 0 auto;
+    padding: 0;
     text-align: center;
+    div {
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+                @media (min-width: q.$tablet) {
+                }
+        }
+    }
     h2 {
         font-family: v.$fuente-titulos;
         font-size: clamp(2rem, 5vw, 3rem);
@@ -21,10 +30,13 @@ main {
             margin-bottom: 12px;
             padding: 15px 20px;
             text-align: left;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            transition: box-shadow 0.2s ease-in-out;
+            transition: all 0.3s ease;
             &:before {
                 content: "🔧 ";
                 margin-right: 10px;
             }
         }
     }
-}
+}*/
